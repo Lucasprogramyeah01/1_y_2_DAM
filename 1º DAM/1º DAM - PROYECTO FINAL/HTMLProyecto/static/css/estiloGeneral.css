@@ -1,0 +1,7 @@
+#tarjetaProducto{
+    transition-duration: 0.2s;
+}
+
+#tarjetaProducto:hover{
+    transform: scale(1.07);
+}

@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+#envoltorio{
+    width: 85%; /*Como no está en un contenedor flex, manejo su tamaño con width*/
+    margin: 0 auto;
+    min-width: 650px;
+
+}
+/*en este ejemplo estamos usando los selectores jerárquicos: al poner dos selectores separados por espacio, estoy seleccionando "los descendientes de X que son Y". Por ejemplo: 
+
+#envoltorio header{}
+
+significa "los header que son descendientes de #envoltorio". Da igual que sean hijos, nietos, etc., pero el header que esté dentro de #envoltorio. Puedes verlos en la diapositiva 21.
+*/
+#envoltorio header img{
+    width: 100%;
+    border-radius: 50px;
+}
+#envoltorio #contenido{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+#envoltorio #contenido main{
+    flex: 1 1 75%; /*Con esta propiedad digo de un golpe los tres valores: grow, shrink y basis (por ese orden)*/
+    padding: 20px 3%;
+    background-color: rgb(255, 194, 81);
+}
+#envoltorio #contenido aside{
+    flex: 1 1 25%;
+    margin: 0px 5px;
+}
+#envoltorio #contenido aside .ladoDerecho{
+    text-align: center;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: orangered;
+    border-radius: 50px;
+}
+#envoltorio #contenido aside .ladoDerecho img{
+    width: 90%;
+    border-radius: 50px;
+}
+#envoltorio #contenido aside .publi{
+    width: 100%;
+    text-align: center;			
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+#envoltorio #contenido aside .publi img{
+    width: 100%;
+    text-align: center;		
+    padding: 10px;	
+    border-radius: 50px;
+}
+#envoltorio #contenido aside .publi p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

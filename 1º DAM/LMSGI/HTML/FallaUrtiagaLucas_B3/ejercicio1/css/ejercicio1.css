@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(245, 155, 155);
+}
+
+h1.rojo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 5em;
+    color:white;
+    background-color: rgb(127, 7, 7);
+}
+
+h2{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    background-color: rgb(210, 4, 4);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(28, 18, 18);
+}
+
+li{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.4;
+    color: rgb(107, 4, 4);
+}

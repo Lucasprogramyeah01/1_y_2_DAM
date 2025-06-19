@@ -1,0 +1,114 @@
+body{
+    background-image: linear-gradient(to right, rgb(206, 2, 60), rgb(195, 34, 114));
+    box-sizing: border-box;
+    margin-top: 16px;
+}
+
+nav{
+    width: 98%;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0%;
+    margin: 0px;
+}
+
+nav ul a{
+    flex: 1 1 14%;
+    background-color: rgb(43, 0, 96);
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(255, 230, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 1px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(255, 230, 0);
+    color: rgb(50, 0, 78);
+}
+
+main section{
+    height: 100%;
+    width: 98%;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section{
+    margin: 0%;
+    padding: 15px;
+}
+
+p{
+    margin: 0;
+}
+
+main #inicio{
+    display:none;
+}
+
+main #quienesSomos{
+    display:none;
+}
+
+main #dondeEstamos{
+    display:none;
+}
+
+main #noticias{
+    display:none;
+}
+
+main #descargas{
+    display:none;
+}
+
+main #galeria{
+    display:none;
+}
+
+main #contacto{
+    display:none;
+}
+
+main #inicio:target{
+    display: block;
+}
+
+main #inicio2:target{
+    background-color: white;
+    color: black;
+}
+
+main #quienesSomos:target{
+    display: block;
+}
+
+main #dondeEstamos:target{
+    display:none;
+}
+
+main #noticias:target{
+    display:none;
+}
+
+main #descargas:target{
+    display:none;
+}
+
+main #galeria:target{
+    display:none;
+}
+
+main #contacto:target{
+    display:none;
+}

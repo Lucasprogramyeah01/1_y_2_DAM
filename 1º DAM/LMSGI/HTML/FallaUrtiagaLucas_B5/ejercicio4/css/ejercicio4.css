@@ -1,0 +1,69 @@
+body{
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(179, 179, 179));
+    box-sizing: border-box;
+    margin: 16px;
+    
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-inline-start: 0%;
+    margin: 0px;
+}
+
+nav ul li{
+    padding: 12px;
+    height: 70px;
+    width: 100px;
+    background-image: url(../img/matrizIconos.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.inicio{
+    background-position-y: -18px;
+}
+
+.inicio:hover{
+    transform: scaleY(1.5);
+}
+
+.nuevo{
+    background-position-y: -142px;
+}
+
+.nuevo:hover{
+    transform: scaleX(2);
+}
+
+.editar{
+    background-position-y: -269px;
+}
+
+.editar:hover{
+    translate: 70px;
+}
+
+.visualizar{
+    background-position-y: -395px;
+}
+
+.visualizar:hover{
+    transform:rotateZ(360deg);
+}
+
+.imagen{
+    background-position-y: -528px;
+}
+
+.imagen:hover{
+    transform: skewX(60deg);
+}

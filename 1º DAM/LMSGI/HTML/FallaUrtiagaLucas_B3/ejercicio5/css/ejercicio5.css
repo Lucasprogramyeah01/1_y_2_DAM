@@ -1,0 +1,230 @@
+body{
+    background-color: rgb(255, 253, 158);
+}
+
+@font-face{
+	font-family: "Cedarville";
+    src: url('../fonts/CedarvilleCursive-Regular.ttf');
+}
+
+@font-face{
+	font-family: "Aurore";
+    src: url('../fonts/LaBelleAurore-Regular.ttf');
+}
+
+@font-face{
+	font-family: "Adventure";
+    src: url('../fonts/Adventure.otf');
+}
+
+@font-face{
+	font-family: "AdHollow";
+    src: url('../fonts/Adventure\ Hollow.otf');
+}
+
+@font-face{
+	font-family: "Future";
+    src: url('../fonts/Outrun\ future\ Bold\ Italic.otf');
+}
+
+h1{
+    font-size: 8em;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(255, 0, 128);
+    font-family: 'Cedarville';
+    color: rgb(255, 242, 0);
+}
+
+span.carita{
+    color: rgb(131, 213, 8);
+    font-size: 2em;
+}
+
+p{
+    font-size: 10em;
+    letter-spacing: 45px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+span.LetraA{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    vertical-align: super;
+}
+
+span.LetraB{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    vertical-align: sub;
+}
+
+span.LetraC{
+    font-family: 'AdHollow';
+    color: yellow;
+    vertical-align: super;
+}
+
+span.LetraCH{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    vertical-align: sub;
+}
+
+span.LetraD{
+    font-family:'Times New Roman', Times, serif;
+    color: palevioletred;
+    vertical-align: super;
+}
+
+span.LetraE{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: peru;
+    vertical-align: super;
+}
+
+span.LetraF{
+    font-family:'Cedarville';
+    color: rgb(0, 188, 144);
+    vertical-align: sub;
+}
+
+span.LetraG{
+    font-family: 'Aurora';
+    color: brown;
+    vertical-align: super;
+}
+
+span.LetraH{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: olive;
+    vertical-align: sub;
+}
+
+span.LetraI{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+    vertical-align: super;
+}
+
+span.LetraJ{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: fuchsia;
+    vertical-align: super;
+}
+
+span.LetraK{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    vertical-align: sub;
+}
+
+span.LetraL{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    vertical-align: super;
+}
+
+span.LetraLL{
+    font-family: 'Cedarville';
+    color: yellowgreen;
+    vertical-align: sub;
+}
+
+span.LetraM{
+    font-family: 'Courier New', Courier, monospace;
+    color: goldenrod;
+    vertical-align: super;
+}
+
+span.LetraN{
+    font-family: 'Adventure';
+    color: indigo;
+    vertical-align: super;
+}
+
+span.LetraÑ{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lawngreen;
+    vertical-align: sub;
+}
+
+span.LetraO{
+    font-family: 'Courier New', Courier, monospace;
+    color: lightcoral;
+    vertical-align: super;
+}
+
+span.LetraP{
+    font-family: 'Cederville';
+    color: maroon;
+    vertical-align: sub;
+}
+
+span.LetraQ{
+    font-family: 'Future';
+    color: rgb(255, 0, 102);
+    vertical-align: super;
+}
+
+span.LetraR{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: salmon;
+    vertical-align: super;
+}
+
+span.LetraRR{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: forestgreen;
+    vertical-align: sub;
+}
+
+span.LetraS{
+    font-family: sans-serif;
+    color: rgb(168, 3, 66);
+    vertical-align: super;
+}
+
+span.LetraT{
+    font-family: monospace;
+    color: rgb(79, 234, 193);
+    vertical-align: sub;
+}
+
+span.LetraU{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(93, 0, 127);
+    vertical-align: super;
+}
+
+span.LetraV{
+    font-family: 'Future';
+    color: rgb(213, 199, 0);
+    vertical-align: super;
+}
+
+span.LetraW{
+    font-family: 'Cedarville';
+    color: grey;
+    vertical-align: sub;
+}
+
+span.LetraX{
+    font-family: 'Aurore';
+    color: gold;
+    vertical-align: super;
+}
+
+span.LetraY{
+    font-family: 'Adventure';
+    color: rgb(184, 120, 0);
+    vertical-align: sub;
+}
+
+span.LetraZ{
+    font-family: 'AdHollow';
+    color: black;
+    vertical-align: super;
+}

@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(to left, rgb(226, 155, 1), rgb(255, 74, 3));
+    box-sizing: border-box;
+}
+
+div{
+    width: 10px;
+}
+
+img{
+    margin: 10px;
+}
+
+#menu{
+    width: 700px;
+    margin: 10px -720px;
+}
+
+#menu:target{
+    transition: all 0.1s;
+    transform: translateX(710px);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    justify-content: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li{
+    padding-top: 10px;
+    text-indent: 20px;
+    background-color: rgb(26, 189, 48);
+    color: black;
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size: 21px;
+
+}
+
+nav ul li ul{
+    margin: 10px 0px;
+}
+
+nav>ul>li>ul>li{
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    font-size: 0px;
+    transition: all 0.5s;
+}
+
+nav>ul>li:hover>ul>li{
+    padding: 12px;
+    width: inherit;
+    height: inherit;
+    font-size: 16px;
+    background-color: rgb(173, 173, 173);
+}
+
+nav>ul>li>ul>li:hover{
+    background-color: rgb(220, 40, 0);
+    color: white;
+    transition: all 0.2s;
+}

@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(210, 149, 238);
+    font-size: 1.3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    background-color: rgb(160, 19, 160);
+    color:white;
+    text-align: center;
+}
+
+span.TP{
+    color: white;
+    font-size: 2em;
+}
+
+h2{
+    background-color: rgb(160, 19, 160);
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 0.8;
+    color:white;
+}
+
+div.IV{
+    text-align: center;
+}
+
+div.QUIMICA{
+    background-color: rgb(41, 0, 80);
+    color: white;
+}
+
+div.DMITRI{
+    text-align: center;
+    letter-spacing: 36px;
+}
+
+h3{
+    background-color: rgb(41, 0, 80);
+    color: white;
+    line-height: 35px;
+    text-indent: 1%;
+}
+
+p{
+    text-align: justify;
+}
+
+p.center{
+    text-align: center;
+    color: rgb(41, 0, 80)
+}
+
+p.NG{
+    background-color: yellow;
+    color: black;
+    line-height: 40px;
+    text-indent: 1%;
+}

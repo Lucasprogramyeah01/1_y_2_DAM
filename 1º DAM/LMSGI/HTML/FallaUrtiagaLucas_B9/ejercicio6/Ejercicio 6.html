@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Boletín 9 -> Ejercicio 6</title>
+
+	<style type="text/css">
+		body {font-family: arial, helvetica;}
+		#info {width:160px; border:thin solid silver; padding:.5em; position:fixed;}
+		#info h1 {margin: 0;}
+	</style>
+
+	<script>   
+		window.addEventListener('click',informacion);
+
+		function informacion(elEvento) {
+			let evento = elEvento || window.event;
+
+			let coordenadaX = evento.clientX;
+			let coordenadaY = evento.clientY;
+			let dimensiones = tamanioVentanaNavegador();
+			let tamanioX = dimensiones[0];
+			let tamanioY = dimensiones[1];
+			let posicionHorizontal = "";
+			let posicionVertical = "";
+			
+			if (coordenadaX > tamanioX / 2) {
+				posicionHorizontal = "Derecha";
+			} else {
+				posicionHorizontal = "Izquierda";
+			}
+
+			if (coordenadaY > tamanioY / 2) {
+				posicionVertical = "Abajo";
+			} else {
+				posicionVertical = "Arriba";
+			}
+
+			muestraInformacion(['ZONA', posicionHorizontal, posicionVertical]);
+		}
+
+		function muestraInformacion(mensaje) {
+			let info = document.getElementById("info");
+			info.innerHTML = '<h1>'+mensaje[0]+'</h1>';
+			for(let i=1; i<mensaje.length; i++) {
+				info.innerHTML += '<p>'+mensaje[i]+'</p>';
+			}
+		}
+
+		function tamanioVentanaNavegador(){
+			// Adaptada de http://www.howtocreate.co.uk/tutorials/javascript/browserwindow
+			let dimensiones = [];
+			
+			if(typeof(window.innerWidth) == 'number') {
+				// No es IE
+				dimensiones = [window.innerWidth, window.innerHeight];
+			} else if(document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+				//IE 6 en modo estandar (no quirks)
+				dimensiones = [document.documentElement.clientWidth, document.documentElement.clientHeight];
+			} else if(document.body && (document.body.clientWidth || document.body.clientHeight)) {
+				//IE en modo quirks
+				dimensiones = [document.body.clientWidth, document.body.clientHeight];
+			}
+			
+			return dimensiones;
+		}
+	</script>
+</head>
+	<body>
+		<div id="info"></div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</body>
+</html>

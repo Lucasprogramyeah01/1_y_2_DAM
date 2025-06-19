@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(216, 159, 13);
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(66, 38, 2);
+    color:rgb(216, 141, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+
+h2{
+    color: black;
+    font-size: 2em;
+}
+
+h2.R1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2.R2{
+    font-family:'Courier New', Courier, monospace;
+}
+
+h2.R3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face{
+	font-family: "Aurore";
+    src: url('../fonts/LaBelleAurore-Regular.ttf');
+}
+
+p{
+    font-size: 1.2em;
+    color: white;
+}
+
+span{
+    color: rgb(66, 38, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.rima1{
+    font-family: "Aurore", Times, Georgia, 'Times New Roman';
+}
+
+p.rima2{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+p.rima3{
+    font-family: 'Times New Roman','Arial Narrow Bold', sans-serif;
+}

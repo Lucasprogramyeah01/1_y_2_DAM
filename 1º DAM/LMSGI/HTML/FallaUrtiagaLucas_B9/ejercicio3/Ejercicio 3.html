@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Boletín 9 -> Ejercicio 3</title>
+		<script>
+			window.onload = function(){
+				let boton = document.querySelector('input[type="button"');;
+				boton.addEventListener('click',anade);
+			}
+
+			function anade() {
+				let texto = prompt('Introduzca el mensaje que va a ser agregado a la lista:');
+
+				//Obtengo la lista.
+				let lista = document.querySelector('#lista');	//También se puede poner: let lista = document.querySelector('ul');
+
+				//Creo el nuevo elemento.
+				let nuevoLi = document.createElement('li');
+
+				//Le doy contenido.
+				nuevoLi.innerText = texto;
+
+				//Le añado el "li" a la lista.
+				lista.append(nuevoLi);
+			}
+		</script>
+</head>
+	<body>
+		<ul id="lista">
+			<li>Lorem ipsum dolor sit amet</li>
+			<li>Consectetuer adipiscing elit</li>
+			<li>Sed mattis enim vitae orci</li>
+			<li>Phasellus libero</li>
+			<li>Maecenas nisl arcu</li>
+		</ul>
+		<input type="button" value="Añadir elemento">
+	</body>
+</html>

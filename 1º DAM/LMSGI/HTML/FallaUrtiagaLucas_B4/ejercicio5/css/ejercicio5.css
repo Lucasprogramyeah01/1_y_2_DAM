@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+#envoltorio{
+    width: 100%; /*Como no está en un contenedor flex, manejo su tamaño con width*/
+    margin: 0 auto;
+    min-width: 650px;
+}
+/*en este ejemplo estamos usando los selectores jerárquicos: al poner dos selectores separados por espacio, estoy seleccionando "los descendientes de X que son Y". Por ejemplo: 
+
+#envoltorio header{}
+
+significa "los header que son descendientes de #envoltorio". Da igual que sean hijos, nietos, etc., pero el header que esté dentro de #envoltorio. Puedes verlos en la diapositiva 21.
+*/
+#envoltorio header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(76, 76, 255);
+    color: white;
+}
+#envoltorio header .cabecera{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+#envoltorio header .indice{
+    text-indent: 15px;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+    width: 100%;
+    background-color: rgb(149, 200, 72);
+}
+
+#envoltorio #contenido{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#envoltorio #contenido nav{
+    background-color: rgb(76, 76, 255);
+    color:#fff;
+    flex-basis: 25%; /*Como está dentro de un contenedor flexible, manejo su tamaño con flex-basis, flex-grow y flex-shrink*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 10px 3%;
+    font-size: 1.5em;
+}
+#envoltorio #contenido nav li{
+    list-style: none;
+}
+#envoltorio #contenido main{
+    flex: 1 1 50%; /*Con esta propiedad digo de un golpe los tres valores: grow, shrink y basis (por ese orden)*/
+    padding: 20px 3%;
+    background-color: white;
+}
+#envoltorio #contenido aside{
+    flex: 1 1 25%;
+    background-color: rgb(76, 76, 255);
+    flex-direction: column;
+}
+#envoltorio #contenido aside .galeria{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    padding: 10px 3%;
+    font-size: 1.5em;
+    color: white;
+}
+#envoltorio #contenido aside .galeria img{
+    width: 70%;
+    padding: 10px;
+}
+#envoltorio #contenido aside .publi{
+    width: 80%;
+    text-align: center;			
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+}
+
+#envoltorio footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(149, 200, 72);
+    color: black;
+    font-size: 1.5em;
+    text-indent: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

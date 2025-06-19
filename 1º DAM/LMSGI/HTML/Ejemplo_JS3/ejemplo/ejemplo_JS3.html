@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo_JS3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <!-- Aquí hay que pintar un cuadrado. -->
+
+        <!--<h1>FORMULARIO DE REGISTRO</h1>
+        <form name="registro">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Introduzca su nombre" required size="50" maxlength="100">
+            <br><br>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Introduzca sus apellidos" required size="50" maxlength="200">
+            <br><br>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" value="1" min="1" max="200">
+            <br><br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Introduzca su correo electrónico" required size="50" maxlength="500">
+            <br><br>
+            <label for="navegador">Mi navegador favorito</label>
+            <input type="text" name="navegador" id="navegador" list="opciones">
+            <datalist id="opciones">
+                <option value="Google"></option>
+                <option value="Yahoo"></option>
+                <option value="Safari"></option>
+                <option value="Mozilla Firefox"></option>
+                <option value="Microsoft Edge"></option>
+                <option value="Opera"></option>
+                <option value="Yandex"></option>
+            </datalist>
+            <br><br>
+            <input type="submit" id="enviar" name="enviar" value="Enviar">
+        </form>-->
+
+        <h1 class="m">UN FORMULARIO</h1>
+        <form name="registro" action="#" method="" class="w-75 mx-auto mt-5">
+            <div class="input-group w-25 m-1">
+                <label class="input-group-text" for="nombre">Nombre</label>
+                <input type="text" class="form-control" name="nombre">
+            </div>
+            <div class="input-group w-25 m-1">
+                <label class="input-group-text" for="apellido">Apellidos</label>
+                <input type="text" class="form-control" name="apellido">
+            </div>
+            <div class="input-group w-25 m-1">
+                <label class="input-group-text" for="clave">Clave</label>
+                <input type="password" class="form-control" name="clave">
+                <i class="bi bi-eye-fill input-group-text"></i>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="genero">
+                <label class="form-check-label" for="genero">Hombre</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="genero">
+                <label class="form-check-label" for="genero">Mujer</label>
+            </div>
+        </form>
+    </body>
+</html>
